@@ -1,0 +1,111 @@
+﻿@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url("font/TitilliumWeb-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+body {
+    margin: 30px;
+    background-color: #FFFFFF;
+    font-family: "TitilliumWeb";
+}
+
+.cart-item{
+    display:flex;
+    align-content:space-between;
+}
+
+.cart-image {
+    overflow: hidden;
+    width: 45%;
+    height: 150px;
+}
+
+    .cart-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+
+.item-details {
+    padding: 10px 10px 10px 10px;
+}
+
+.item-data{
+    padding: 10px;
+    margin: 0px;
+}
